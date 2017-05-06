@@ -27,3 +27,9 @@ Use Threads and Daemon THreads differ in what happens when they exit.
 - All Daemon Threads terminate automatically when all User Threads terminate
 
 - The JVM itself exits when all User Threads have exited and any remaining Threads are all Daemon Threads.
+
+
+
+#### 04:47
+If launched with no command-line parameters the Main Thread creates a User Thread  
+If launched with a command line parameter then it creates a Daemon Thread.
